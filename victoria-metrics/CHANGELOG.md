@@ -1,3 +1,8 @@
+## 1.121.0
+
+- Updated to VictoriaMetrics Agent 1.121.0
+- Starting from this release I will use the same release version as bundled VMAgent, adding an extra `.1` in case I need patch releases
+
 ## 1.8.20.8
 
 - Updated to VictoriaMetrics Agent 1.120.0

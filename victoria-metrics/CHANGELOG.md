@@ -1,3 +1,7 @@
+## 1.126.0
+
+- Updated to VictoriaMetrics Agent 1.126.0
+
 ## 1.122.0
 
 - Updated to VictoriaMetrics Agent 1.122.0

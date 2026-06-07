@@ -1,3 +1,7 @@
+## 1.144.0
+
+- Updated to VictoriaMetrics Agent 1.144.0.
+
 ## 1.132.2
 
 - Published fork metadata updates for the `Yiivgeny/homeassistant-addon-vmagent` repository.

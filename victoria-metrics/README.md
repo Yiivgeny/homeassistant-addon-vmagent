@@ -28,6 +28,6 @@ There are many reasons to switch to Victoria Metrics. Compared to other products
 > VictoriaMetrics wins InfluxDB and Timescale in all the queries by a margin of up to 20x. It especially excels at heavy queries, which scan many millions of datapoints across thousands of distinct timeseries. More info here 
 [VictoriaMetrics vs. InfluxDB vs. Timescale](https://valyala.medium.com/when-size-matters-benchmarking-victoriametrics-vs-timescale-and-influxdb-6035811952d4)
 
-This add-on continues the work of Andreas Habel whose [hassio-victoriametrics](https://github.com/Exceptionfault/hassio-victoriametrics) add-on was not updated since 2021.
-I developed this mainly for my purpose running VictoriaMetrics on my Raspberry Pi 4 running Home Assistant Operating System.
+This fork is maintained at [Yiivgeny/homeassistant-addon-vmagent](https://github.com/Yiivgeny/homeassistant-addon-vmagent).
+It builds on [Lapo Luchini's Home Assistant Victoria Metrics Agent add-on](https://github.com/lapo-luchini/homeassistant-addon-vmagent), which continues the earlier work of Andreas Habel whose [hassio-victoriametrics](https://github.com/Exceptionfault/hassio-victoriametrics) add-on was not updated since 2021.
 The direction of InfluxDB 2.0 was not what I wanted in combination with Grafana so VictoriaMetrics Time Series Database was the best choice.

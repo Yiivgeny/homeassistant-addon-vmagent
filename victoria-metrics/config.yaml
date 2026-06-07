@@ -2,7 +2,7 @@ name: Victoria Metrics Agent add-on
 version: "1.132.1"
 slug: victoria_metrics_agent
 description: Victoria Metrics Agent add-on for long term storage as replacement for Prometheus and InfluxDB
-url: https://github.com/lapo-luchini/homeassistant-addon-vmagent
+url: https://github.com/Yiivgeny/homeassistant-addon-vmagent
 webui: "http://[HOST]:[PORT:8429]/"
 ingress: true
 ingress_port: 8429

@@ -18,6 +18,8 @@ arch:
   - amd64
 init: false
 stage: stable
+map:
+  - addon_config:rw
 options:
   remoteWriteURL: ""
   additionalArguments: ""

@@ -36,6 +36,33 @@ http://victoriametrics:8428/api/v1/write
 
 Use `additionalArguments` for extra vmagent flags when needed.
 
+### External config files
+Place add-on specific files such as relabeling rules in the add-on config folder. Home Assistant creates it on the host as:
+
+```text
+/addon_configs/<repository_id>_victoria_metrics_agent/
+```
+
+Inside the add-on container this folder is mounted as:
+
+```text
+/config/
+```
+
+For the repository id shown in Supervisor build logs such as `ba3d6959/amd64-addon-victoria_metrics_agent`, the host path is usually:
+
+```text
+/addon_configs/ba3d6959_victoria_metrics_agent/relabel.yml
+```
+
+Then reference it in `additionalArguments` as:
+
+```text
+-remoteWrite.relabelConfig=/config/relabel.yml
+```
+
+The Home Assistant `/share` folder is not mounted by this add-on. Move files that were previously stored in `/share` into the add-on config folder and reference them through `/config`.
+
 
 ### Sending data to VictoriaMetrics
 To send data from Home Assistant to VictoriaMetrics, you can use the `InfluxDB` integration. 

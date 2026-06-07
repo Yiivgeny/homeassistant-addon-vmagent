@@ -4,6 +4,7 @@
 - Updated the image build to use current Home Assistant multi-arch base images and `BUILD_ARCH`.
 - Moved vmagent temporary data to the add-on `/data` volume.
 - Disabled the host port by default; ingress remains enabled for the web UI.
+- Added an add-on config mount for user-managed files such as relabel configs.
 
 ## 1.132.0
 
